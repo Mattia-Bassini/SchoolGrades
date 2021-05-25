@@ -114,9 +114,9 @@ namespace SchoolGrades_Web
                 cmbSchoolSubject.DataSource = listSubjects;
             }
         }
-        internal void btnTest_Click()
-        {
+        //internal void btnTest_Click()
+        //{
 
-        }
+        //}
     }
 }
