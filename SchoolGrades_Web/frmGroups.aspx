@@ -12,7 +12,7 @@
         <div>
             <asp:TextBox ID="txtClass" runat="server"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="btnCreateFileGroups" runat="server" Text="Crea file" />
+            <asp:Button ID="btnCreateFileGroups" runat="server" Text="Crea file" OnClick="btnCreateFileGroups_Click" />
             <br />
         </div>
         <asp:Panel ID="pnlGroups" runat="server" Height="72px" Width="129px">
@@ -27,13 +27,13 @@
         <asp:TextBox ID="txtTotalStudentsToGroup" runat="server" Height="16px" Width="80px" style="top: 75px; left: 150px;position:absolute;"></asp:TextBox>
         <asp:Label ID="Label2" runat="server" Text="Allievi/gruppo"></asp:Label>
 &nbsp;&nbsp;
-        <asp:TextBox ID="txtStudentsPerGroup" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtStudentsPerGroup" runat="server" OnTextChanged="txtStudentsPerGroup_TextChanged"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="btnCreateGroups" runat="server" Text="Crea Gruppi" Width="83px" />
+        <asp:Button ID="btnCreateGroups" runat="server" Text="Crea Gruppi" OnClick="btnCreateGroups_Click" Width="83px" />
         <br />
         <asp:Label ID="Label3" runat="server" Text="N gruppi"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtNGroups" runat="server" OnTextChanged="txtNGroups_TextChanged"></asp:TextBox>
         <br />
         <asp:TextBox ID="txtGroups" runat="server" Height="310px" Width="335px"></asp:TextBox>
     </form>
