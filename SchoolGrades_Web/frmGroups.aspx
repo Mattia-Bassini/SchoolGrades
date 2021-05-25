@@ -33,7 +33,7 @@
         <br />
         <asp:Label ID="Label3" runat="server" Text="N gruppi"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="txtNGroups" runat="server" OnTextChanged="txtNGroups_TextChanged"></asp:TextBox>
+        <asp:TextBox ID="txtNGroups" runat="server"></asp:TextBox>
         <br />
         <asp:TextBox ID="txtGroups" runat="server" Height="310px" Width="335px"></asp:TextBox>
     </form>
