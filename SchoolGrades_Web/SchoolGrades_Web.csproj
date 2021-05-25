@@ -82,6 +82,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="frmGroups.aspx" />
     <Content Include="MessageBox.aspx" />
     <Content Include="Setup.aspx" />
     <Content Include="Web.config" />
@@ -100,6 +101,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmGroups.aspx.cs">
+      <DependentUpon>frmGroups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmGroups.aspx.designer.cs">
+      <DependentUpon>frmGroups.aspx</DependentUpon>
     </Compile>
     <Compile Include="MessageBox.aspx.cs">
       <DependentUpon>MessageBox.aspx</DependentUpon>
